@@ -1,0 +1,254 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+h1{
+    margin:0;
+    font-size:40px;
+}
+
+p{
+    font-size:20px;
+}
+/* About Section */
+#about {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#about h2 {
+    color: #0d6efd;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+    color:#333
+}
+.profile-pic{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid white;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+.resume-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background-color: #007BFF;
+    color: Black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.about h2 {
+    color: black;
+}
+.resume-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+/* Education Section */
+.education {
+    padding: 80px 10%;
+    background: #f8f9fa;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.education-card {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-left: 5px solid #0077ff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
+
+.education-card h3 {
+    color: #0077ff;
+    margin-bottom: 10px;
+}
+
+.education-card h4 {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.education-card p {
+    margin: 6px 0;
+    color: #444;
+    line-height: 1.6;
+}
+/* Technical Skills Section */
+.skills {
+    padding: 80px 10%;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+}
+
+.skill-card h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.skill-card p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+}
+/* Projects Section */
+.projects {
+    padding: 80px 10%;
+    background: #f8f9fa;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #0b3d91;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    background: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 2opx;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color:#333;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.project-card ul {
+    color:#333;
+    padding-left: 20px;
+}
+
+.project-card ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+/* Certifications Section */
+#certifications {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+#certifications h2 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.certification-card {
+    background: #ffffff;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-left: 5px solid #007bff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.certification-card h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.certification-card p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.contact {
+    padding: 80px 10%;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.contact h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.contact p {
+    color: #444;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
